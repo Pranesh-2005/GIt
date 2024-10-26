@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Rules</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/assessment_rules.css') }}">
+</head>
+<body>
+    <h1>Assessment Rules for {{ course.course_name }}</h1>
+    <form>
+        <input type="checkbox" name="rule" value="rule1"> Rule 1<br>
+        <input type="checkbox" name="rule" value="rule2"> Rule 2<br>
+        <button type="submit">Start Assessment</button>
+    </form>
+</body>
+</html>
